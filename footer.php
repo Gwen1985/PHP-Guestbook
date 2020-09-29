@@ -1,8 +1,7 @@
-<div class="row">
-    <div class="col-xl">
-        <div class="footer">
+<footer>
+    <div class="row fixed-bottom bg-info">
+        <div class="col-xl">
             <p> G.WebDev&#169; Creations</p>
         </div>
     </div>
-</div>
-
+</footer>

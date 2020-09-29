@@ -1,7 +1,7 @@
-<div class="row">
-    <div class="col-xl">
-        <div class="header">
+<header>
+    <div class="row bg-info">
+        <div class="col-xl">
             <h1> Welcome to my awesome Guestbook !!</h1>
         </div>
     </div>
-</div>
+</header>

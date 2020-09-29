@@ -1,40 +1,45 @@
 <?php
 
-class ViewMsg {
+declare(strict_types=1);
 
-    private string $title = "";
-    private string $msg = "";
-    private string $author = "";
+class ViewMsg
+{
+
+    private string $fname;
+    private string $lname;
+    private string $msg;
+    private string $errMsg;
 
     /**
      * ViewMsg constructor.
-     * @param string $title
-     * @param string $Date
+     * @param string $fname
+     * @param string $lname
      * @param string $msg
-     * @param string $author
+     * @param string $errMsg
      */
-    public function __construct(string $title, string $Date, string $msg, string $author)
+    public function __construct(string $fname, string $lname, string $msg, string $errMsg)
     {
-        $this->title = $title;
-        $this->Date = $Date;
+        $this->fname = $fname;
+        $this->lname = $lname;
         $this->msg = $msg;
-        $this->author = $author;
+        $this->errMsg = $errMsg;
+    }
+    //GETTERS
+
+    /**
+     * @return string
+     */
+    public function getFname(): string
+    {
+        return $this->fname;
     }
 
     /**
      * @return string
      */
-    public function getTitle(): string
+    public function getLname(): string
     {
-        return $this->title;
-    }
-
-    /**
-     * @return string
-     */
-    public function getDate(): string
-    {
-        return $this->Date;
+        return $this->lname;
     }
 
     /**
@@ -48,12 +53,43 @@ class ViewMsg {
     /**
      * @return string
      */
-    public function getAuthor(): string
+    public function getErrMsg(): string
     {
-        return $this->author;
+        return $this->errMsg;
     }
 
+    //SETTER
 
+    /**
+     * @param string $errMsg
+     */
+    public function setErrMsg(string $errMsg): void
+    {
+        $this->errMsg = $errMsg;
+    }
 
+}
 
+if (!isset($_POST["fname"])) {
+    echo $errMsg = "<p class=\"bg-danger\">" . $errMsg = "Firs name is required!" . "</p>";
+}
+
+if (isset($_POST["fname"])) {
+    echo $_POST["fname"] . "&nbsp;";
+}
+
+if (!isset($_POST["lname"])) {
+    echo $errMsg = "<p class=\"bg-danger\">" . $errMsg = "Last name is required!" . "</p>";
+}
+
+if (isset($_POST["lname"])) {
+    echo $_POST["lname"] . "<br>";
+}
+
+if (!isset($_POST["msgBox"])) {
+    echo $errMsg = "<p class=\"bg-danger\">" . $errMsg = "Message is required!" . "</p>";
+}
+
+if (isset($_POST["msgBox"])) {
+    echo $_POST["msgBox"];
 }

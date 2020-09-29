@@ -9,55 +9,37 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
-<div class="container">
-    <?php
-    require 'header.php';
-    ?>
+<?php
+require 'header.php';
+?>
+<div class="container sticky-top">
     <div class="row">
-        <div class="col-xl">
-            <div class="content">
-                <div class="inputfields">
-                    <form action="" method="post">
-                        <label for="input">
-                            TITLE: <input type="text" name="title" placeholder="Enter name here">
-                            E-mail: <input type="text" name="email" placeholder="Enter E-mail here"><br>
-                            Message: <input class="msgField" name="msgField" type="text" placeholder="Enter Message Here"><br>
-                            <button type="submit" name="Send">Send</button><br>
-                        </label>
-                    </form>
-                </div>
-                <div class="row">
-                    <div class="col-xl">
-                        <div class="showMsg">
-                            <?php
-                            require 'ViewMsg.php';
-
-                            if (isset($_POST["title"])) {
-                                echo $_POST["title"] . "<br>";
-                            }
-
-                            if (isset($_POST["email"])) {
-                                echo $_POST["email"] . "<br>";
-                            }
-
-                            if (isset($_POST["msgField"])) {
-                                echo  $_POST["msgField"];
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
+        <div class="col col-l">
+            <form method="post">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input required type="text" id="lname" name="lname">
+                <label for="msgBox">Message:</label><br>
+                <input required type="text" class="bg-primary d-block " id="msgBox" name="msgBox">
+                <input type="submit" value="Post Message" class="btn btn-primary rounded-pill"><br>
+            </form>
+        </div>
+        <div class="col col-l">
+            <div class="showMsg">
+                <?php
+                session_start();
+                require 'ViewMsg.php';
+                ?>
             </div>
         </div>
     </div>
-    <?php
-    require 'footer.php';
-    ?>
-
 </div>
 
-<footer>
-</footer>
+<?php
+require 'footer.php';
+?>
+
 </body>
 </html>
+
