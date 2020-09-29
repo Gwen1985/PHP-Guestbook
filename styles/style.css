@@ -1,0 +1,16 @@
+body {
+  background-color: cadetblue;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.footer p {
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
