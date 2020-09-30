@@ -17,21 +17,12 @@
 
 <?php require 'header.php'; ?>
 
-<main class="container border border-primary">
 
-    <div class="row">
-        <div class="col-md">
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="">
-                <?php require 'form_guestbook.php'; ?>
-            </form>
-        </div>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="">
+        <?php require 'form_guestbook.php'; ?>
+    </form>
+    <?php require 'view_posts.php'; ?>
 
-        <div class="col col-md">
-            <?php require 'view_posts.php'; ?>
-        </div>
-    </div>
-
-</main>
 
 <?php require 'footer.php'; ?>
 

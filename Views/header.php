@@ -1,8 +1,6 @@
 <header>
-    <div class="row bg-primary text-white ">
-        <div class="col-xl d-flex justify-content-center">
-            <h1> Welcome to my awesome Guestbook !!</h1>
-        </div>
+    <div class="row bg-primary text-white d-flex justify-content-center ">
+        <h1>GuestBook</h1>
     </div>
     <br>
 </header>

@@ -1,50 +1,39 @@
-<div class="container">
-    <div class="row">
-        <!--   FIRST NAME   -->
-        <div class="col col-lg">
-            <label for="name-first" class="">First
-                Name</label>
-            <input type="text" id="name-first" name="name-first" value="<?php echo $nameFirst; ?>"
-                   class="  <?php echo (empty($nameFirstError)) ? ' rounded-pill border-gray-200 focus:border-gray-500' : 'border-red-500'; ?>">
-            <?php echo $nameFirstError; ?>
+<div class="container border border-info mt-2 rounded-lg shadow-lg">
+    <div class="row w-100">
+        <div class="col col-sm mt-2">
+            <!--   FIRST NAME   -->
+            <label for="name-first" class=""></label>
+            <input required type="text" id="name-first" name="name-first" value="<?php echo $nameFirst; ?>"
+                   class="border border-secondary rounded-lg"
+                   placeholder="First name">
         </div>
-        <!--   LAST NAME   -->
-        <div class="col col-lg">
-            <label for="name-last" class="">Last
-                Name</label>
-            <input type="text" id="name-last" name="name-last" value="<?php echo $nameLast; ?>"
-                   class=" <?php echo (empty($nameLastError)) ? ' text-wrap rounded-pill border-gray-200 focus:border-gray-500' : 'border-red-500'; ?> "
+        <div class="col col-sm mt-2">
+            <!--   LAST NAME   -->
+            <label for="name-last" class=""></label>
+            <input required type="text" id="name-last" name="name-last" value="<?php echo $nameLast; ?>"
+                   class="border border-secondary rounded-lg"
                    placeholder="Last name">
-            <?php echo $nameLastError; ?>
+        </div>
+        <div class="col col-sm mt-2">
+            <!--   TITTLE   -->
+            <label for="title" class=""></label>
+            <input required type="text" id="title" name="title" value="<?php echo $title; ?>"
+                   class="border border-secondary rounded-lg" placeholder="Title">
+        </div>
+        <div class="col col-sm overflow-hidden mt-2">
+            <button type="submit" id="submit" name="submit"
+                    class="btn btn-primary rounded-lg">
+                Post Message
+            </button>
         </div>
     </div>
-
     <div class="row">
-        <!--   TITTLE   -->
-        <div class="col col-lg">
-            <label for="title" class="">
-                Title </label>
-            <input type="text" id="title" name="title" value="<?php echo $title; ?>"
-                   class=" <?php echo (empty($titleError)) ? ' rounded-pill border-gray-200 focus:border-gray-500' : 'border-red-500'; ?>">
-            <?php echo $titleError; ?>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="">
-            <label for="message" class="text-wrap">
-                Message </label>
-            <textarea id="message" name="message"
-                      class=" text-wrap <?php echo (empty($messageError)) ? '  border border-primary focus:border-gray-500' : 'border-red-500'; ?>"><?php echo $message; ?></textarea>
-            <?php echo $messageError; ?>
+        <div class="col col-sm">
+            <label for="message" class="text-wrap"></label>
+            <textarea required id="message" name="message"
+                      class="border border-danger rounded-lg w-100"
+                      placeholder="Message"></textarea>
         </div>
     </div>
 </div>
 
-<div class="w-full px-3 text-center ">
-    <button type="submit" id="submit" name="submit"
-            class="shadow bg-green-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
-        Post
-    </button>
-</div>

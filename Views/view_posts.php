@@ -4,7 +4,7 @@ $guestbookItems = Guestbook::getPosts();
 
 foreach ($guestbookItems as $guestbookItem) {
     ?>
-    <div class="container border border-warning mt-1 p-1 rounded-pill">
+    <div class=" container-sm border border-info mt-2 rounded-lg shadow-lg">
         <div class="">
             <span class="d-flex justify-content-center">
                 <?php echo $guestbookItem->getAuthor(); ?>
@@ -17,10 +17,10 @@ foreach ($guestbookItems as $guestbookItem) {
             </span>
         </div>
 
-        <div class="">
-            <span class="">
-              <hr>
-                <p>TITLE:</p><?php echo $guestbookItem->getTitle(); ?>
+        <div class="d-flex justify-content-center">
+            <span class="text-primary font-weight-bold">
+                 <?php echo $guestbookItem->getTitle(); ?>
+                <hr>
             </span>
         </div>
 
