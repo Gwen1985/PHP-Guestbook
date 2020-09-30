@@ -1,11 +1,6 @@
 body {
-  background-color: cadetblue;
+  background-color: #47438f;
   box-sizing: border-box;
-}
-
-header, footer {
-  text-align: center;
-  color: wheat;
 }
 
 #msgBox {
