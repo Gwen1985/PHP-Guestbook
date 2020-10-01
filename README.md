@@ -30,5 +30,7 @@ Make sure to deploy the site on Heroku.
 ## Nice to have features
 
 TODO: - Profanity filter: at the top of your script create an array of "bad" words. If somebody tries to enter a message with on of those words, their messages gets rejected.
+
 TODO: - When the user enters uses a "smiley" like ":-)", ";-)", ":-(" replace it with an image of such a smily.
+
 TODO: - Have an input field where the user can enter how many messages he wants to see displayed.
