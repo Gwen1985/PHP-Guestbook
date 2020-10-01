@@ -33,4 +33,5 @@ foreach ($guestbookItems as $guestbookItem) {
 
     <?php
 }
+
 ?>

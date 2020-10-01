@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0638a2f-4846-421d-ad25-8ab5581e8ef9" name="Default Changelist" comment="final steps bootstrap styling" />
+    <list default="true" id="a0638a2f-4846-421d-ad25-8ab5581e8ef9" name="Default Changelist" comment="final steps bootstrap styling">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/guestbook_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/guestbook_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Poster.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Poster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/view_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/view_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +60,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gwene\AppData\Roaming\JetBrains\PhpStorm2020.2\consoles\db\f305d2a9-c0c1-4bb4-9b74-ccb538558ef2" />
+      <recent name="C:\xampp\htdocs\PHP-Guestbook\Data" />
       <recent name="C:\xampp\htdocs\PHP-Guestbook\Views" />
       <recent name="C:\xampp\htdocs\PHP-Guestbook\controllers" />
       <recent name="C:\xampp\htdocs\PHP-Guestbook\Models" />
@@ -69,7 +77,8 @@
       <updated>1601387201162</updated>
       <workItem from="1601387202268" duration="4463000" />
       <workItem from="1601407771354" duration="15832000" />
-      <workItem from="1601449702037" duration="40233000" />
+      <workItem from="1601449702037" duration="42270000" />
+      <workItem from="1601538893122" duration="6588000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1601387466946</created>
@@ -120,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601506754371</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="final steps bootstrap styling">
+      <created>1601507378845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601507378845</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,10 +162,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="final steps bootstrap styling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601473809081">
+    <state x="336" y="361" key="#SQL_Dialects" timestamp="1601547111235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1601547111235" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601547157631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1601473809081" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601547157631" />
     <state x="730" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601387220196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -170,14 +191,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1601387428317" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601506763541">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601507388108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1601423689011" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601506763541" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601412064408">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601507388108" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601507384406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1601412064408" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601507384406" />
   </component>
 </project>

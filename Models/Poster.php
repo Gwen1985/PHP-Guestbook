@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 const FILE_FOLDER = 'Data';
-const FILE_NAME   = 'guestbook_data.txt';
-const FILE_PATH   = DIRECTORY_SEPARATOR . FILE_FOLDER . DIRECTORY_SEPARATOR . FILE_NAME;
+const FILE_NAME = 'guestbook_data.txt';
+const FILE_PATH = DIRECTORY_SEPARATOR . FILE_FOLDER . DIRECTORY_SEPARATOR . FILE_NAME;
 
 class Poster
 {
@@ -32,5 +32,8 @@ class Poster
         }
 
         return $data;
+
     }
+
 }
+
