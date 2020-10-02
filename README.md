@@ -1,5 +1,9 @@
 # PHP-Guestbook
 
+
+### Linkn to the guestbook in heroku 
+ -heroku deletes the .txt file every x hours, so messages dissapear.
+ 
 https://php-guestbook-gwen.herokuapp.com/
 
 ## Learning objectives
