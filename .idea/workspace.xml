@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0638a2f-4846-421d-ad25-8ab5581e8ef9" name="Default Changelist" comment="finished product">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="a0638a2f-4846-421d-ad25-8ab5581e8ef9" name="Default Changelist" comment="finished product" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,7 +77,7 @@
       <workItem from="1601884456889" duration="1398000" />
       <workItem from="1601907431656" duration="670000" />
       <workItem from="1601979307026" duration="46000" />
-      <workItem from="1602014845612" duration="43000" />
+      <workItem from="1602014845612" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1601387466946</created>
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601547577259</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="clear data.txt file">
+      <created>1602014922437</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602014922437</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +180,8 @@
     <MESSAGE value="finished logic, and playing with bootstrap" />
     <MESSAGE value="final steps bootstrap styling" />
     <MESSAGE value="finished product" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished product" />
+    <MESSAGE value="clear data.txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear data.txt file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="361" key="#SQL_Dialects" timestamp="1601547111235">
@@ -207,9 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1601387428317" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601547585568">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602014929432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602014929432" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1601423689011" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601547585568" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601507384406">
